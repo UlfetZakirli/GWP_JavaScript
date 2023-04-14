@@ -22,7 +22,7 @@
 ////////////////////// 4.forEach method
 // const arr4 = ['name', 'surname', 10, 'age', 'city', 'uni', 80, 20]
 // 1.Loop 'arr4' and show its each value in console
-// 2.Loop 'arr4' and show only numbers in console with multiply by 2. 
+// 2.Loop 'arr4' and show only numbers in console with multiply by 2.
 
 ////////////////////// 5. Map method
 // const arr5 = [4, 5, 6, '2', 6, true, undefined, '55']
@@ -31,13 +31,31 @@
 // 3.Convert each value of 'arr5' to String.
 // 4.Convert each value of 'arr5' to Boolean.
 // 5.Convert each value of 'arr5' to Number.
+// 6.Convert to 'Number' each value of 'arr5' and find max value.
 
 ///////////////////// 6.Filter method
-// const mixArray = ['1', 2, 4, 'a', false, '9', 12, undefined, 3, true, null]
+// const mixArray = ['1', 2, 4, 'a', false, '9', 12, '42', undefined, 3, true, null]
 // 1.Find out numbers(typeof number) in 'mixArray'.
 // 2.Find out strings(typeof strings) in 'mixArray'.
 // 3.Find out boolean(typeof boolean) in 'mixArray'.
 // 4.Find out falsy values in mixArray'.
+
+///////////////////// 7.Filter and Map methods
+// const arr7 = [44, 3, 6, '2', 6, true, undefined, '55', null]
+// 1.Convert to 'Number' each value of 'arr7' and find max value in 'arr7'.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -116,10 +134,80 @@
 
 // console.log([5].concat({ name: 'ulfat' }, 'Ukjsjd', false))
 
-// const obj = {
-//     name: 'Ulfat',
-//     surname: 'Zakirli',
-//     city: 'Gence'
+
+// Array methods
+// pop,push,shift,unshift
+// splice,slice,concat,reverse,join,forEach,map,find,findIndex, findLastIndex,indexOf,lastIndexOf,filter,at,sort,reduce,reduceRight,fill.
+// Array.isArray
+
+
+//////////////////////////////////////// splice method (insert,remove,replace)
+// const arr = ['a', 'b', 'c', 'd']
+// arr.splice(1, 2)
+// console.log(arr);
+// // arr.splice(0, 2,'A','B')
+// arr.splice(2, 0, 1, 2, 3, 4)
+// console.log(arr);
+
+// splice,sort,reverse() //method which can modify original array
+
+/////////////////////////////////////////// slice method
+// const arr = ['a', 'b', 'c', 'd']
+// const result = arr.slice(0, 2)
+// console.log({ result }); // a,b
+// console.log({ arr }); //original array
+
+
+/////////////////////////////////////////// concat method
+
+
+// const arr = ['Fatime'].concat('Nermin', 'Nabir', 'Ehed', 2,false,undefined,{
+//     firstName:'Nazim057'
+// })
+// console.log(arr);
+
+
+// forEach and map
+// forEach
+// const students = ['Sebine', 'Yaqut', 'Nermin', 'Sevil']
+// students.forEach(student => console.log(student))
+
+// students.forEach((student, index, arr) => {
+//     console.log(student);
+// })
+
+// // for (index)
+// for (let i = 0; i < students.length; i++) {
+//     console.log(students[i]);
+// }
+// // for...of
+// for (let student of students) {
+//     console.log(student);
 // }
 
-// Object.keys(obj).map((item) => console.log(obj[item]))
+
+// const result = students.map((student) => {
+//     console.log(student);
+// })
+
+
+// const students = ['Sebine', 'Yaqut', 'Nermin', 'Sevil']
+// const numbers = [1, 2, 3, '4', '9', false, 9, 6, undefined]
+
+// const reuslt = numbers.map((item) => typeof item === 'number' && item > 3)
+// console.log(reuslt);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
