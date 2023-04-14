@@ -31,20 +31,28 @@
 // 3.Convert each value of 'arr5' to String.
 // 4.Convert each value of 'arr5' to Boolean.
 // 5.Convert each value of 'arr5' to Number.
-// 6.Convert to 'Number' each value of 'arr5' and find max value.
+
+// const result = arr5.map((item) => Number(item))
+// console.log(result);
 
 ///////////////////// 6.Filter method
 // const mixArray = ['1', 2, 4, 'a', false, '9', 12, '42', undefined, 3, true, null]
 // 1.Find out numbers(typeof number) in 'mixArray'.
+// const result = mixArray.filter(item => typeof item === 'number')
+// console.log(result);
 // 2.Find out strings(typeof strings) in 'mixArray'.
 // 3.Find out boolean(typeof boolean) in 'mixArray'.
 // 4.Find out falsy values in mixArray'.
 
 ///////////////////// 7.Filter and Map methods
 // const arr7 = [44, 3, 6, '2', 6, true, undefined, '55', null]
-// 1.Convert to 'Number' each value of 'arr7' and find max value in 'arr7'.
+// 1.Convert to 'Number' each value of 'arr7' and find max value in 'arr7'(not falsy).
 
+// const arr7 = [44, 3, 6, '2', 6, true, undefined, '55', null]
 
+// const newArr9 = arr7.filter(item => Number(item))
+// const newArr10 = Math.max(...newArr9.map((item) => Number(item)))
+// console.log(newArr10);
 
 
 
