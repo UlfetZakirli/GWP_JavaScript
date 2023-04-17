@@ -67,3 +67,58 @@
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// let myName = 'reshid' //ReshiD
+
+// let newText = myName[0].toUpperCase() + myName.slice(1, - 1) + myName.at(-1).toUpperCase()
+// console.log(newText);
+
+
+// replace
+
+// let text = 'How is it going?'
+// let newText = text.replace('i', '')
+// console.log(newText);
+
+// const numbers = [4, 2, 1, 8, 11, 12, 22]
+// const letters = ['b', 'c', 'a', 'e']
+// const numbers = [3, 2, 6, 1, 9]
+// numbers.sort((a, b) => a - b)
+
+
+// letters.sort((a, b) => a > b ? 1 : -1) //letters
+// letters.sort((a, b) => a.localeCompare(b)) //letters (better way)
+// numbers.sort((a, b) => a - b) ///numbers
+// console.log(letters);
+
+
+// const arr = [5, [4, [9, [5, [3, [0, ['a', ['o']]]]]]]]
+
+// console.log(arr.flat(Infinity));
+
+
+
+// const students = [
+//     {
+//         firstName: 'Leyla',
+//         age: 20
+//     },
+//     {
+//         firstName: 'Maqa',
+//         age: 29
+//     },
+//     {
+//         firstName: 'Gulcin',
+//         age: 6
+//     }
+// ]
+
+
+// let sum = 0
+// students.map((item) => sum += item.age)
+// console.log(sum / students.length);
+
+// let result = students.reduce((sum, current, index) => current.age > 10 ? sum + current.age : sum, 0)
+
+// console.log(result);
