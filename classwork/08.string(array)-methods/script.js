@@ -2,7 +2,6 @@
 // const arr1 = ['guba', 'mingecevir', 'baku', 'gazag', 'gence', 'shirvan']
 // console.log: ['GubA', 'MingeceviR', 'BakU', 'GazaG', 'GencE', 'ShirvaN']
 
-
 // 2.String and Array
 // let text = 'We are MERN-Stack developers'
 
@@ -16,7 +15,7 @@
 
 
 // 3.Write a function(arrow function) called 'calcArea()' which to calculate sum region's area,
-//  if region's length is equal to 6 in 'arr2'. 
+//  if region's length is equal to 6 in 'arr2'.
 // const arr3 = [
 //     {
 //         region: 'Yasamal',
@@ -66,7 +65,10 @@
 
 
 
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 
 // let myName = 'reshid' //ReshiD
@@ -122,3 +124,87 @@
 // let result = students.reduce((sum, current, index) => current.age > 10 ? sum + current.age : sum, 0)
 
 // console.log(result);
+
+// const arr = ['a', 'b', 'c']
+// console.log(arr.slice(1));
+// console.log(arr);
+
+
+
+
+
+////////////////////////// slice, toUpperCase()
+// const firstName = 'Nabir' // YaquT
+
+// const newName = firstName[0].toUpperCase() + firstName.slice(1, -1) + firstName.at(-1).toUpperCase()
+// console.log(newName);
+
+
+// const text = 'How is it going!'
+// // const newText = text.split`i`.join``
+// const newText = text.replaceAll('i', '')
+// console.log(text);
+// console.log(newText);
+
+// console.log(text.indexOf('i',5));
+
+// 
+// const students = [
+
+//     {
+//         firstName: 'Zerife',
+//         age: 18
+//     },
+//     {
+//         firstName: 'Efsane',
+//         age: 16
+//     },
+//     {
+//         firstName: 'Sebine',
+//         age: 28
+//     },
+//     {
+//         firstName: 'Mezahir',
+//         age: 48
+//     },
+
+// ]
+
+// console.log(students.reduce((acc,curr)=>acc+curr.age,0)/students.length);
+
+// let result = students.reduce((sum, prev, index, arr) => sum + prev.age, 0)
+// console.log(result);
+
+
+// const numbers = [3, 1, 3, 5, 11, 21, 22, 4, 2]
+// const letters = ['v', 'b', 'c', 'a', 'd', 'A', 'B', 'C']
+
+// // numbers.sort() //good
+// // numbers.sort((a, b) => a - b) //better
+// letters.sort((a, b) => a < b ? 1 : -1) //close to best
+// numbers.sort((a, b) => a - b)
+
+
+
+// console.log('a', 'a'.codePointAt());
+// console.log('A', 'A'.codePointAt());
+
+// // numbers.sort((a, b) => {
+// //     if (a > b) return 1
+// //     if (a < b) return -1
+// //     if (a === b) return 0
+// // })
+
+
+
+
+// console.log({ numbers });
+// console.log(letters);
+
+
+// // splice, sort, reverse
+
+
+
+// const arr = [1, [5], [6, [5, [6, [7, ['j']]]]]].flat(Infinity)
+// console.log(arr);
