@@ -14,26 +14,9 @@
 // console.log(newArr);
 // 5.Find index of first 'r' (excepting 'are').  // 9
 // 6.Find out vowels in 'text' and add them to 'newArr' which contains unique values. //['e','a','o']
+// let vowels = ['a', 'e', 'o', 'u', 'i']
 
-let text = 'We are MERN-Stack developers'
-let vowels = ['a', 'e', 'o', 'u', 'i']
-let newText = []
 
-// text.split("").map((item)=> vowels.includes(item) && newText.push(item))
-
-// console.log([... new Set(newText)]); // Sevil
-// console.log(Array.from(new Set (newText)) );//Leyla
-// text.split("").map((item,i)=> {
-//     if(vowels.includes(item) && text.indexOf(item)==i){
-//         return newText.push(item)
-//     }
-// })
-
-// const result = text.split``.filter((item, index) => vowels.includes(item) && !newText.includes(item) && newText.push(item))
-// const result = text.split``.filter((item, index, arr) => vowels.includes(item) && arr.indexOf(item) === index)
-// console.log(result);
-
-// console.log(newText);
 // 3.Write a function(arrow function) called 'calcArea()' which to calculate sum region's area,
 //  if region's length is equal to 6 in 'arr3'.
 // const arr3 = [
@@ -61,9 +44,6 @@ let newText = []
 //         area: 30,
 //     },
 // ]
-// const newArr = arr3.reduce((sum, item) => item.region.length === 6 ? sum += item.area : sum, 0) //Leyla.M
-// console.log(newArr)
-
 
 // console.log: (60)
 
@@ -81,20 +61,6 @@ let newText = []
 
 // 6.Sort array "colors" with color's length, if color's length is equal to each other sort them alphabetically.
 // const colors = ['green', 'blue', 'yellow', 'black', 'red', 'brown', 'white', 'gray', 'violet', 'pink']
-
-// console.log(colors.sort((a, b) => a.length - b.length || a.localeCompare(b))); //Maqa
-
-// console.log(colors.sort((a, b) => a.length === b.length ? a.localeCompare(b) : a.length - b.length));
-
-// console.log(colors.sort((a, b) => (a.length - b.length) ? a.length - b.length : a.localeCompare(b)));
-
-
-// console.log: ['red', 'blue', 'gray', 'pink', 'black', 'brown', 'green', 'white', 'violet', 'yellow']
-
-
-// const letters = ['v', 'c', 'b', 'a', 'd']
-// console.log(letters.sort((a, b) => a < b ? 1 : -1));
-// console.log(letters.sort((a, b) => b.localeCompare(a)));
 
 
 
