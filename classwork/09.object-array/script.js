@@ -12,12 +12,12 @@
 // 2.3.Return new array, if user is male add in front of name 'Mr', or Ms. (e.g. name:'Mr Anar', 'Ms Aynure').
 // 2.4.Sort users by age (ascending).
 // const users = [
-//     { name: 'Anar', surname: 'Hesenli', age: '22', uni: 'ADA' },
-//     { name: 'Nezrin', surname: 'Reshidova', age: '23', uni: 'UNEC' },
-//     { name: 'Hikmet', surname: 'Hesenova', age: '22', uni: 'UNEC' },
-//     { name: 'Nicat', surname: 'Sadiqov', age: '25', uni: 'UNEC' },
-//     { name: 'Murad', surname: 'Salmanli', age: '23', uni: 'ADNSU' },
-//     { name: 'Aynure', surname: 'Hesenzade', age: '23', uni: 'BMU' },
+//     { name: 'Anar', surname: 'Hesenli', age: '22', uni: 'ADA', gender: 'male' },
+//     { name: 'Nezrin', surname: 'Reshidova', age: '23', uni: 'UNEC', gender: 'female' },
+//     { name: 'Hikmet', surname: 'Hesenova', age: '22', uni: 'UNEC', gender: 'male' },
+//     { name: 'Nicat', surname: 'Sadiqov', age: '25', uni: 'UNEC', gender: 'male' },
+//     { name: 'Murad', surname: 'Salmanli', age: '23', uni: 'ADNSU', gender: 'male' },
+//     { name: 'Aynure', surname: 'Hesenzade', age: '23', uni: 'BMU', gender: 'female' },
 // ]
 
 // 3.Shuffle array////////////////////////////////////////////////////////////////////
@@ -50,8 +50,5 @@
 
 
 /////////////////////////////////////////////////////////////////////////////////
-
-
-
 
 
