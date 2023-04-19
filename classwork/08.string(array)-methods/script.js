@@ -1,9 +1,17 @@
 // 1.Write a function called: 'getUpper(anyArr)' that returns the newArr with the uppercased first and last character.
 // const arr1 = ['guba', 'mingecevir', 'baku', 'gazag', 'gence', 'shirvan']
+
+// function getUpper(item){
+//     return arr1.map(item => item[0].toLocaleUpperCase()+item.slice(1,-1)+item.at(-1).toLocaleUpperCase())
+
+
+// }
+// console.log(getUpper());
 // console.log: ['GubA', 'MingeceviR', 'BakU', 'GazaG', 'GencE', 'ShirvaN']
 
+
 // 2.String and Array
-// let text = 'We are MERN-Stack developers'
+let text = 'We are MERN-Stack developers'
 
 // 1.Replace 'MERN Stack' with 'Front-end'.  // We are Front-end developers!
 // 2.Replace all 'e' with 'a'. // wa ara marn-stack davalopars!
@@ -14,37 +22,71 @@
 // console.log(newArr);
 // 5.Find index of first 'r' (excepting 'are').  // 9
 // 6.Find out vowels in 'text' and add them to 'newArr' which contains unique values. //['e','a','o']
-// let vowels = ['a', 'e', 'o', 'u', 'i']
+let vowels = ['a', 'e', 'o', 'u', 'i']
+
+// let arr = text.split("")
+// let arr1 = []
+// arr.map(item => vowels.includes(item) ? arr1.push(item) : arr1)
+// arr1.sort()
+// let result = []
+// for (let i = 0; i < arr1.length; i++) {
+//     if (arr1[i] !== arr1[i + 1]) {
+//         result.push(arr1[i])
+//     }
+
+// }
+// console.log(result); //Fatime
+
+// let arreyy = [...new Set(Array.from(text.toLowerCase()).filter((x) => vowels.includes(x)))] //Nazim
+// console.log(arreyy);
+
+
+// const newArr = []
+// text.split('').filter((item) => vowels.includes(item) && !newArr.includes(item) && newArr.push(item)) //good but not best
+// const result = text.split('')
+// console.log(result.filter((item, index, arr) => vowels.includes(item) && arr.indexOf(item) === index)); // best
+
+
+
+
+
+// const numbers = [1, 2, 4, 2, 4]
+// console.log([...new Set(numbers)]);
+
+// let text2 = 'I am Ulfat, u are Fatime'
+// console.log(text2.split`, `);
+// console.log(Array.from(text2));
+
 
 
 // 3.Write a function(arrow function) called 'calcArea()' which to calculate sum region's area,
 //  if region's length is equal to 6 in 'arr3'.
-// const arr3 = [
-//     {
-//         region: 'Yasamal',
-//         area: 170,
-//     },
+const arr3 = [
+    {
+        region: 'Yasamal',
+        area: 170,
+    },
 
-//     {
-//         region: 'Nizami',
-//         area: 20,
-//     },
+    {
+        region: 'Nizami',
+        area: 20,
+    },
 
-//     {
-//         region: 'Nesimi',
-//         area: 10,
-//     },
+    {
+        region: 'Nesimi',
+        area: 10,
+    },
 
-//     {
-//         region: 'Sebail',
-//         area: 30,
-//     },
-//     {
-//         region: 'Xetai',
-//         area: 30,
-//     },
-// ]
-
+    {
+        region: 'Sebail',
+        area: 30,
+    },
+    {
+        region: 'Xetai',
+        area: 30,
+    },
+]
+//  console.log(arr3.reduce((sum,curr)=>curr.region.length===6 ? sum+curr.area :sum ,0)
 // console.log: (60)
 
 
@@ -60,7 +102,11 @@
 
 
 // 6.Sort array "colors" with color's length, if color's length is equal to each other sort them alphabetically.
-// const colors = ['green', 'blue', 'yellow', 'black', 'red', 'brown', 'white', 'gray', 'violet', 'pink']
+// const colors = ['green', 'blue', 'yellow', 'black', 'red', 'brown', 'white', 'ray', 'violet', 'pink']
+
+// colors.sort((a, b) => a.length - b.length || a.localeCompare(b))
+// console.log(colors);
+
 
 
 
@@ -126,8 +172,6 @@
 // const arr = ['a', 'b', 'c']
 // console.log(arr.slice(1));
 // console.log(arr);
-
-
 
 
 
@@ -206,5 +250,14 @@
 
 // const arr = [1, [5], [6, [5, [6, [7, ['j']]]]]].flat(Infinity)
 // console.log(arr);
+
+
+
+// console.log(6 || 77 && undefined || false || 8 || null || 8 && 0 || -1 || true && undefined || false && false);
+
+
+// || - first true
+// && - first false
+
 
 
