@@ -3,9 +3,7 @@
 // let names1 = ["Adam", "Sarah", "Malcolm"] //"ASM"
 // let names2 = ["Harry", "Newt", "Luna", "Cho"] //"HNLC"
 // let names3 = ["Phoebe", "Chandler", "Rachel", "Ross", "Monica", "Joey"] //"PCRRMJ"
-// const secretName = () => {
-//     return names1.map((item) => item[0]).sort((a, b) => a.localeCompare(b)).join('')
-// }
+
 
 // console.log(secretName());
 // 2.Manipulate array///////////////////////////////////////////////////////
@@ -17,19 +15,23 @@
 
 
 // const users = [
-//     { name: 'Anar', surname: 'Hesenli', age: '22', uni: 'ADA', gender: 'male' },
-//     { name: 'Nezrin', surname: 'Reshidova', age: '23', uni: 'UNEC', gender: 'female' },
-//     { name: 'Hikmet', surname: 'Hesenov', age: '22', uni: 'UNEC', gender: 'male' },
-//     { name: 'Nicat', surname: 'Sadiqov', age: '25', uni: 'UNEC', gender: 'male' },
-//     { name: 'Murad', surname: 'Salmanli', age: '23', uni: 'ADNSU', gender: 'male' },
-//     { name: 'Aynure', surname: 'Hesenzade', age: '23', uni: 'BMU', gender: 'female' },
+//     { name: 'Anar', surname: 'Hesenli', age: '22', uni: 'ADA', gender: 'male', salary: '3001' },
+//     { name: 'Nicat', surname: 'Sadiqov', age: '25', uni: 'UNEC', gender: 'male', salary: '200' },
+//     { name: 'Nezrin', surname: 'Reshidova', age: '23', uni: 'UNEC', gender: 'female', salary: '300' },
+//     { name: 'Hikmet', surname: 'Hesenov', age: '22', uni: 'UNEC', gender: 'male', salary: '320' },
+//     { name: 'Murad', surname: 'Salmanli', age: '23', uni: 'ADNSU', gender: 'male', salary: '420' },
+//     { name: 'Aynure', surname: 'Hesenzade', age: '23', uni: 'BMU', gender: 'female', salary: '3210' },
 // ]
+
+// console.log(users.sort((a, b) => b.salary - a.salary));
 
 
 // 3.Shuffle array////////////////////////////////////////////////////////////////////
 // const letters = ['a', 'b', 'c', 'd']
 // const numbers = [1, 2, 3, 4, 5, 6, 7]
-// console.log(letters.sort(() => Math.random() - 1));
+
+// console.log(letters.sort(() => Math.random() - .5));
+// console.log(letters[Math.floor(Math.random() * letters.length)]);
 
 
 // 4.Divide 2 the price of arr4.
@@ -55,13 +57,20 @@
 // let num2 = 102 //102201
 // let num3 = 152 //152251
 
-// function reverseNum(any) {
-//     //    any= any+"";
-//     //    return (any=any +any.split("").reverse().join(""));  //Fidan
-//     // return +(`${String(any)}${String(any).split('').reverse().join``}`)
-
+// function reverseNum(num) {
+//     let operation = num.toString().split("").reverse().join("");
+//     let result = parseInt(`${num}${operation}`)
+//     console.log(typeof (+result))
 // }
+// reverseNum(num1)  //Minaye
+
+
+// function reverseNum(num) {
+//     return +(num + [...String(num)].reverse().join``)
+// }
+
 // console.log(reverseNum(num1));
+
 
 
 /////////////////////////////////////////////////////////////////////////////////
