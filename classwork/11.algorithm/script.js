@@ -34,29 +34,27 @@
 
 
 // 2.2 Create a function called maxNums that find out max num of each arr
-
 // console.log(maxNums([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]])); //[7, 90, 2]
 // console.log(maxNums([[-34, -54, -74], [-32, -2, -65], [-54, 7, -43]])); // [-34, -2, 7]
 
 
-
-
 // 2.3 Create a function called 'findLetterIndex(text,letter)', that returns the first index and the last index of a character.
+
 // console.log(findLetterIndex("hello", "l")); // [2,3]
 // // console.log(findLetterIndex("happy", "h")); //[0, 0]
 
+
 // 2.4 Create a function called checkNum that takes an array of numbers arr and a number n.
 //  Return true if the sum of any two elements is equal to the given number. Otherwise, return false.
+
+// console.log(checkNum([10, 12, 4, 7, 9, 11], 16));  //true
+// console.log(checkNum([2, 8, 9, 12, 45, 78], 1)); //false
+// console.log(checkNum([0, 9, 7, 23, 19, 18, 17, 66], 39)); //false
 
 
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
 
 
 
