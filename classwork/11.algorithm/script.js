@@ -239,3 +239,108 @@
 // const arr = [['name', 'Ulfat'], ['surname', 'Zakirli']]
 
 // console.log(Object.fromEntries(arr));
+
+
+
+// 1.Given a number, return an array containing the two halves of the number.If the number is odd, make the rightmost number higher.
+
+// function numberSplit(n) {
+//     const arr = []
+//     arr.push(Math.floor(n / 2), Math.ceil(n / 2))
+//     return arr
+// }
+
+
+// 2.Create a function that reorders the digits of each numerical element in an array based on ascending (asc) or descending (desc) order.
+
+// function reorderDigits(arr, direction) {
+//     if (direction === 'asc') {
+//         return arr.map((item) => +(String(item).split``.sort().join``))
+//     } else {
+//         return arr.map((item) => +(String(item).split``.sort((a, b) => b - a).join``))
+
+//     }
+// }
+
+
+
+// 1.Given a number, return an array containing the two halves of the number.If the number is odd, make the rightmost number higher.
+// function numberSplit(n) {
+//    const arr=[]
+// 	if(n%2==0){
+//     arr.push(n/2,n/2)
+//     }
+//     else{
+//         arr.push((n-1)/2,(n-1)/2+1)
+//     }
+// return arr
+// }
+// function numberSplit(a){
+//     const arr=[]
+//     if(a%2==0){
+// arr.push((a/2),(a/2))
+//     }else{
+//         arr.push(Math.floor(a/2),Math.ceil(a/2))
+//     }
+//     return arr
+// }
+
+// function numberSplit(n) {
+//     let arr = []
+//     arr.push(Math.floor(n / 2), Math.ceil(n / 2))
+//     return arr
+// }
+
+// console.log(numberSplit(4));   //[2,2]
+// console.log(numberSplit(11));  //[5,6]
+// console.log(numberSplit(-9));  //[-5,-4]
+
+
+// 2.Create a function that reorders the digits of each numerical element in an array based on ascending (asc) or descending (desc) order.
+// function reorderDigits(arr, direction) {
+//     return arr.map((item) => {
+//         if (direction === 'asc') {
+//             return +(String(item).split``.sort().join``)
+//         } else {
+//             return +(String(item).split``.sort((a, b) => Number(b) - Number(a)).join``)
+//         }
+//     })
+
+
+//  arr.map(item => {
+//     if (direction === "desc") {
+//         return console.log();
+//     } else {
+//         return [...String(item)]
+//     }
+// })
+
+
+// }
+
+
+
+// function reorderDigits(arr, dis) {
+//     if (dis == 'asc') {
+//         return arr.map((item) => +(String(item).split``.sort().join``))
+//     } else {
+//         return arr.map((item) => +(String(item).split``.sort((a, b) => b - a).join``))
+
+//     }
+// }
+
+// console.log(reorderDigits([515, 341, 98, 44, 211], "asc"));    // [155, 134, 89, 44, 112]
+// console.log(reorderDigits([515, 341, 98, 44, 211], "desc"));   //[551, 431, 98, 44, 211]
+
+
+
+
+
+
+///Conver Number to Array
+
+// let num = 552
+// console.log([...String(num)]);
+// console.log([...'' + num]);
+// console.log([...num.toString()]);
+// console.log(String(num).split``);

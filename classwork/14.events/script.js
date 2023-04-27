@@ -69,15 +69,18 @@ checkBox.addEventListener('click', () => {
 
 inputRaido.forEach((item) => {
     item.addEventListener('click', () => {
-        alert('Thanks!')
+        setTimeout(() => {
+            alert('Thanks!')
+        }, 200)
     })
 })
+
 
 
 // const counter = str => [...str].reduce((a, c) => (a[c] = ++a[c] || 1) && a, {})
 
 
-const counter = (str) => [...str].reduce((sum, prev) => (sum[prev] = ++sum[prev] || 1) && sum, {})
-console.log(
-    counter("hello world")
-)  
+// const counter = (str) => [...str].reduce((sum, prev) => (sum[prev] = ++sum[prev] || 1) && sum, {})
+// console.log(
+//     counter("hello world")
+// )  
