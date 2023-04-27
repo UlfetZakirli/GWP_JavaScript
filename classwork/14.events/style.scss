@@ -1,0 +1,15 @@
+#secForm {
+  height: 95vh;
+  form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    border: 2px dashed green;
+    #labelCheck {
+      visibility: hidden;
+    }
+  }
+}

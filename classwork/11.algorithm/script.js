@@ -79,10 +79,14 @@
 //     return arr.some(item=> arr.some(el => item+el===n))
 //  }
 
-// console.log(checkNum([10, 12, 4, 7, 9, 11], 16));  //true
-// console.log(checkNum([2, 8, 9, 12, 45, 78], 1)); //false
-// console.log(checkNum([0, 9, 7, 23, 19, 18, 17, 66], 39)); //false
+// console.log(checkNum([10, 12, 4, 7, 9, 11, 16], 16));  //true
+// // console.log(checkNum([2, 8, 9, 12, 45, 78], 1)); //false
+// // console.log(checkNum([0, 9, 7, 23, 19, 18, 17, 66], 39)); //false
 
+
+// function checkNum(arr, num) {
+//     return arr.some((item) => arr.includes(num - item))
+// }
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -123,6 +127,115 @@
 // insertWhitespace("SheWalksToTheBeach") ➞ "She Walks To The Beach"
 
 // function insertWhitespace(params) {
-    
+
 // }
 
+
+
+// const arr = ['1', null, undefined, 0, 9, 2, false, true]
+
+
+//true
+// console.log(arr.filter(Boolean));
+// console.log(arr.filter(x => !!x));
+// console.log(arr.filter(x => Boolean(x)));
+
+
+// //false
+// console.log(arr.filter((x) => !x));
+// console.log(arr.filter((x) => !Boolean(x)));
+
+
+// function myFun(str) {
+//     let value = 0
+//     let arr = []
+//     str.split``.map((letter) => {
+//         value = str.split(letter).length - 1
+//         arr.push([letter, value])
+//     })
+//     return Object.fromEntries(arr)
+// }
+
+// console.log(myFun("hello world"));
+
+
+// let arr = [['name', 'Ulfat'], ['surname', 'Zakirli']]
+
+
+
+
+
+//Create a function that takes a string and returns an object with properties representing the frequency of each character in the string.
+// For example, if the string contains "hello world", the function should 
+// return an object with properties "h", "e", "l", "o", "w", "r", and "d" and values 1, 1, 3, 2, 1, 1, 
+// and 1 respectively, indicating that each character occurs once or more in the string.
+
+
+
+
+// "hello world" //l
+
+// function myFun(str) {
+//     let count = 0;
+//     let letters = []
+//     str.split("").map((el) => {
+//         count = str.split(el).length - 1
+//         letters.push([el, count])
+//     })
+//     return Object.fromEntries(letters)
+// } //Minaye
+
+
+// function myFun(str) {
+//     let letterLength = 0
+//     const arr = []
+//     str.split``.map((letter) => {
+//         letterLength = str.split(letter).length - 1
+//         arr.push([letter, letterLength])
+
+//     })
+//     return Object.fromEntries(arr)
+// }
+
+// console.log(myFun('hello world'));
+// console.log(myFun('Nermin'));
+// console.log(myFun('Vilayet'));
+
+
+
+
+//Create a function that takes a string and returns an object with properties representing the frequency of each character in the string.
+// For example, if the string contains "hello world", the function should 
+// return an object with properties "h", "e", "l", "o", "w", "r", and "d" and values 1, 1, 3, 2, 1, 1, 
+// and 1 respectively, indicating that each character occurs once or more in the string.
+
+// function myFunc(str){
+//      let emptyobj ={}
+//      let item =""
+//        for (let i = 0; i < str.length; i++) {
+//         emptyobj[item] = str[i];
+//         if(emptyobj[item]){
+//             emptyobj[item]++
+//         }else {
+//             emptyobj[item]=1 
+//         }
+//        }
+//        return emptyobj
+// } 
+
+
+// function myFunc(str) {
+//     let strLength = 0
+//     const arr = []
+//     str.split``.map((letter) => {
+//         strLength = str.split(letter).length - 1
+//         arr.push([letter, strLength])
+//     })
+//     return Object.fromEntries(arr)
+// }
+// console.log(myFunc("hello world"));
+
+
+// const arr = [['name', 'Ulfat'], ['surname', 'Zakirli']]
+
+// console.log(Object.fromEntries(arr));
