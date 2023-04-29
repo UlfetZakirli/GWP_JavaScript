@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+    box-sizing: border-box;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: 2px auto;
+    border-collapse: collapse;
+}
+
+table th {
+    cursor: pointer;
+}
+.arrowUp,
+.arrowDownName,
+.arrowUpName {
+    display: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+section input {
+    width: 900px;
+    margin: 10px auto;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+}
