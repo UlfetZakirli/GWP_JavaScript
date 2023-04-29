@@ -714,6 +714,12 @@ const searchInput = document.querySelector('#searchInput')
 let sortById = 'asc'
 let sortByName = 'asc'
 
+
+
+
+
+
+
 thId.addEventListener('click', () => {
     thName.style.color = '#000'
     arrowDownName.style.display = 'none'
@@ -775,6 +781,13 @@ function tableList(arr) {
     })
 }
 tableList(users)
+
+
+function searchUsers(arr, word) {
+    arr = arr.filter((user) => `${user.first_name} ${user.last_name}`.toLowerCase().includes(word.toLowerCase()))
+    tableList(arr)
+}
+
 
 
 
