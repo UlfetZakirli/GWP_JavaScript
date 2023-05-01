@@ -715,11 +715,6 @@ let sortById = 'asc'
 let sortByName = 'asc'
 
 
-
-
-
-
-
 thId.addEventListener('click', () => {
     thName.style.color = '#000'
     arrowDownName.style.display = 'none'
