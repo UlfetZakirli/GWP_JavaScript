@@ -1,0 +1,14 @@
+.boxes {
+  flex-wrap: wrap;
+}
+
+.box {
+  margin: 10px;
+  border: 1px solid #000;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+  
+}
