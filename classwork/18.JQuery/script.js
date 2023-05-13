@@ -92,9 +92,21 @@
 
 
 
-// // 3. Clear sky
+// 3. Clear sky
 // function clearFog(str) {
-//     // return str.match(/[fog]/gi) ? str.replace(/[fog]/gi, "") : "It's a clear day!"
+//     if(str.toLowerCase().split("").every((item)=>item!="f"&&item!="o"&&item!="g")){
+//         return "it is clear"
+//     }else{
+//       return  str.toLowerCase().split("").filter((item)=>item!="f"&&item!="o"&&item!="g").join("")
+//     }
+// }
+
+// function clearFog(str) {
+//     const word = ['f', 'o', 'g']
+//     const arr = str.toLowerCase().split("")
+//     return arr.some((item) => word.includes(item))
+//         ? arr.reduce((acc, currt) => !word.includes(currt) ? acc + currt : acc, '')
+//         : "It's a clear day!"
 
 // }
 

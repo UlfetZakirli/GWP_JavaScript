@@ -1,0 +1,60 @@
+section {
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.card {
+  background-color: #d1d4db;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.card span {
+  font-size: 15px;
+}
+
+.delete {
+  color: red;
+}
+
+.edit {
+  color: green;
+}
+
+#addBtn {
+  width: 100px;
+}
+
+.submitBtn {
+  margin-top: 30px;
+}
+
+#userForm {
+  width: 400px;
+}
+
+label {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.formSec {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+#editSubmit {
+  display: none;
+}

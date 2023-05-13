@@ -1,0 +1,11 @@
+....Score range 0-100 point.....
+
+1.UI - 20 point.
+
+2.C(POST) - 15 point + code quality 5 point (20 point).
+
+3.R(GET) - 15 point + code quality 5 point (20 point).
+
+4.U(PUT/PATCH) - 15 point + code quality 5 point (20 point).
+
+5.D(DELETE) - 15 point + code quality 5 point (20 point).

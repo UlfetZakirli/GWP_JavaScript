@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Nishani",
+      "usertype": "Manager"
+    },
+    {
+      "id": "3",
+      "name": "How is it going",
+      "usertype": "is Admin"
+    },
+    {
+      "name": "How is it going",
+      "usertype": "is Admin",
+      "id": "5"
+    },
+    {
+      "id": 10,
+      "name": "How is it going",
+      "email": "ulfat@gmail.com",
+      "usertype": "is Admin"
+    },
+    {
+      "id": "6",
+      "name": "Ulfat Zakirli",
+      "email": "ulfat@gmail.com"
+    },
+    {
+      "name": "Ulfat Zakirli",
+      "email": "ulfat@gmail.com",
+      "id": 11
+    },
+    {
+      "name": "Ulfat Zakirli",
+      "email": "ulfat@gmail.com",
+      "id": 12
+    },
+    {
+      "name": "Ulfat Zakirli",
+      "email": "ulfat@gmail.com",
+      "id": 13
+    },
+    {
+      "name": "Ulfat Zakirli",
+      "email": "ulfat@gmail.com",
+      "id": 14
+    },
+    {
+      "name": "Ulfat Zakirli",
+      "email": "ulfat@gmail.com",
+      "id": 15
+    },
+    {
+      "name": "Ulfat Zakirli",
+      "email": "ulfat@gmail.com",
+      "id": 16
+    },
+    {
+      "name": "Ulfat Zakirli",
+      "email": "ulfat@gmail.com",
+      "id": 17
+    },
+    {
+      "name": "Ulfat Zakirli",
+      "email": "ulfat@gmail.com",
+      "id": 18
+    },
+    {
+      "name": "Ulfat Zakirli",
+      "email": "ulfat@gmail.com",
+      "id": 19
+    },
+    {
+      "name": "Ulfat Zakirli",
+      "email": "ulfat@gmail.com",
+      "id": 20
+    }
+  ]
+}

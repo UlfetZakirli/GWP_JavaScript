@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table-fetch</title>
+    <style>
+      h1 {
+        text-align: center;
+        margin: 10px;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      table th,
+      td {
+        background-color: rgb(252, 216, 14);
+        padding: 10px 10px;
+        border: 1px solid black;
+      }
+      thead th {
+        background-color: rgb(40, 66, 212);
+      }
+      table {
+        max-width: 900px;
+        margin: 1px auto;
+        width: 100%;
+        border-collapse: collapse;
+      }
+      button {
+        background-color: red;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Table</h1>
+    <section class="sec1">
+      <table>
+        <thead>
+          <tr>
+            <th id="id">ID</th>
+            <th id="shipname">Ship Name</th>
+            <th id="orderdate">Order Date</th>
+            <th id="address">Address</th>
+            <th id="btn"></th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+section {
+    color: #fff;
+    background-color: #1d2630;
+}
+
+#thFirstName {
+    cursor: pointer;
+}
+
+.arrowDown {
+    display: none;
+    color: red;
+}
+
+.arrowUp {
+    display: none;
+    color: green;
+}

@@ -118,13 +118,7 @@
 // })
 
 
-
-
-
-
-
-
-// let firstName = "leyelae"
+// let firstName = "leyela"
 
 
 // console.log(firstName.split``.reduce((acc, curr) => curr === 'e' ? acc += 1 : acc, 0));

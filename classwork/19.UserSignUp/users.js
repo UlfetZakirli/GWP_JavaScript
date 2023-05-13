@@ -5,7 +5,6 @@ addBtn.addEventListener('click', () => {
 })
 let users = JSON.parse(localStorage.getItem('users')) || []
 
-console.log(users);
 function allUsers() {
     boxes.innerHTML = ''
     users.forEach((user) => {
@@ -16,7 +15,7 @@ function allUsers() {
         <div>
             <h5 id="userName">name:${user.username} </h5>
             <h6 id="userEmail">email:${user.email} </h6>
-            <button onclick='deleteUser(${user.id})' class='btn btn-danger'>Delete</button>
+            <button onclick=deleteUser(${user.id}) class='btn btn-danger'>Delete</button>
             <br>
         </div>
         `
@@ -29,7 +28,6 @@ function deleteUser(userId) {
     users = users.filter((user) => user.id !== userId)
     localStorage.setItem('users', JSON.stringify(users))
     allUsers()
-    console.log('ss');
 }
 
 

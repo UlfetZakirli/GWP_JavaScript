@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "name": "Nermin",
+      "surname": "Akberova",
+      "email": "nermin@gmail.com",
+      "id": "oSczvun",
+      "date": "5/12/2023",
+      "cardnumber": "**********2323"
+    },
+    {
+      "name": "Ferid",
+      "surname": "Ceferova",
+      "email": "ceferova@gmail.com",
+      "cardnumber": "********3812",
+      "date": "5/12/2023",
+      "id": "66b74Ul"
+    },
+    {
+      "name": "Gary",
+      "surname": "Good",
+      "email": "keliravof@mailinator.com",
+      "cardnumber": "********!222",
+      "date": "5/12/2023",
+      "id": "Lu3J4m8"
+    },
+    {
+      "name": "Meredith",
+      "surname": "Baldwin",
+      "email": "jupe@mailinator.com",
+      "cardnumber": "************8888",
+      "date": "5/12/2023",
+      "id": "bSpVUcB"
+    },
+    {
+      "name": "Camden",
+      "surname": "Sharp",
+      "email": "xamesyh@mailinator.com",
+      "cardnumber": "****w0rd!",
+      "date": "5/12/2023",
+      "id": "9COSnFL"
+    },
+    {
+      "name": "Kenneth",
+      "surname": "Adkins",
+      "email": "vuson@mailinator.com",
+      "cardnumber": "Pa$$w0rd!",
+      "date": "5/12/2023",
+      "id": "wMgB9Nh"
+    }
+  ]
+}

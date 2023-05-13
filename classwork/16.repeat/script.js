@@ -312,6 +312,8 @@ const arrNum = [3, 1, 22, 0, 12, 11, 9, 8, 10, 14, 41, 55, 51]
 
 // }
 
+
+
 // console.log(calculator(2, "+", 2));  // 4
 // // console.log(calculator(2, "*", 2));  // 4
 // console.log(calculator(4, "/", 2));  // 2

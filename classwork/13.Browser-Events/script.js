@@ -78,7 +78,7 @@ start.addEventListener('click', () => {
             p.style.borderColor = 'red'
             if (time == 0) {
                 clearInterval(interval)
-                p.innerHTML = 'You missed ):'
+                p.innerHTML = 'You missed):'
                 button.disabled = true
                 p.style.width = '90px'
                 start.removeAttribute('disabled')
