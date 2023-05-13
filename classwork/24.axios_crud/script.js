@@ -159,13 +159,10 @@ async function getUserDetail(userId, username, userDate) {
 
 
 ///////////////////////////////////////////////////////////////////////////////
-
 // const date = new Date()
 // console.log(date.toLocaleDateString()); //use it
 
-
 // console.log(date.toLocaleString());
-
 // console.log(date.toLocaleTimeString());
 
 // // const obj={
