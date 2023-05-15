@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "photo": "./img/Iqo.jpg",
+      "name": "Ego",
+      "surname": "Anton",
+      "email": "ego@mailinator.com",
+      "date": "5/14/2023, 4:12:58 PM",
+      "id": 1
+    },
+    {
+      "photo": "./img/Alfredo.jpg",
+      "name": "Alfredo",
+      "surname": "Linguini",
+      "email": "alfredo@gmail.com",
+      "date": "5/14/2023, 10:53:41 PM",
+      "id": 2
+    },
+    {
+      "photo": "./img/Chef.jpeg",
+      "name": "Chef",
+      "surname": "Skinner",
+      "email": "chef@gmail.com",
+      "date": "5/14/2023, 11:02:41 PM",
+      "id": 3
+    },
+    {
+      "photo": "./img/Qusto.jpg",
+      "name": "Gusteau",
+      "surname": "Auguste",
+      "email": "gusteau@gmail.com",
+      "date": "5/14/2023, 11:04:56 PM",
+      "id": 4
+    },
+    {
+      "photo": "./img/Remy.jpg",
+      "name": "Remy",
+      "surname": "mouse",
+      "email": "remy@gmail.com",
+      "date": "5/14/2023, 11:05:54 PM",
+      "id": 5
+    },
+    {
+      "photo": "./img/Collete.jpg",
+      "name": "Collete",
+      "surname": "Tatou",
+      "email": "collete@gmail.com",
+      "date": "5/14/2023, 11:07:24 PM",
+      "id": 6
+    },
+    {
+      "photo": "./img/Iqo2.jpeg",
+      "name": "Ego",
+      "surname": "Anton",
+      "email": "ego@gmail.com",
+      "date": "5/14/2023, 11:07:57 PM",
+      "id": 7
+    }
+  ]
+}
