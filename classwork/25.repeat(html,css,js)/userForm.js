@@ -11,6 +11,7 @@ const submitBtn = document.querySelector('#submitBtn')
 
 async function createUser() {
     const date = new Date()
+    console.log(userPhoto.value);
     const user = {
         photo: `./img/${userPhoto.value.split("\\")[2]}`,
         name: firstName.value,
@@ -19,9 +20,11 @@ async function createUser() {
         date: date.toLocaleString()
     }
     await axios.post(BASE_URL, user)
-    window.location.href = 'index.html'
+    // window.location.href = 'index.html'
 
 }
+
+
 if (userId) {
     async function getUserById() {
         const res = await axios(`${BASE_URL}/${userId}`)

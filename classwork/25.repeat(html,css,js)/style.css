@@ -109,6 +109,23 @@ tbody tr td img {
   border-radius: 100%;
 }
 
+section.fav .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.fav .title h3 {
+  display: flex;
+  flex-direction: column;
+}
+section.fav .title h3::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: cornflowerblue;
+  margin-top: 5px;
+}
+
 @media only screen and (max-width: 768px) {
   header nav ul {
     display: none;

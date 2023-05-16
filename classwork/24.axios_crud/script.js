@@ -76,13 +76,13 @@ userForm.addEventListener('submit', (e) => {
     else if (isEditing) {
         showAlert('Edited User successfully!', 'success')
         editUser2(editedId, user)
-        
+
         getAllUsers()
     } else {
         showAlert('Added users successfully!', 'success')
         isEditing = false
         addUser(user)
-        
+
 
     }
     submitBtn.value = 'Submit'
@@ -126,7 +126,8 @@ function emptyInput() {
     isEditing = false
 }
 
-searchInput.addEventListener('input', () => {
+searchInput.addEventListener('input', (e) => {
+    console.log('e', e);
     filteredArr = copyArr
     filteredArr = filteredArr.filter((user) => `${user.name} ${user.surname}`.toLowerCase().includes(searchInput.value.toLowerCase()))
     getAllUsers()

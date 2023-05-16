@@ -1,16 +1,8 @@
 {
   "users": [
     {
-      "photo": "./img/Iqo.jpg",
-      "name": "Ego",
-      "surname": "Anton",
-      "email": "ego@mailinator.com",
-      "date": "5/14/2023, 4:12:58 PM",
-      "id": 1
-    },
-    {
       "photo": "./img/Alfredo.jpg",
-      "name": "Alfredo",
+      "name": "Alfredo3",
       "surname": "Linguini",
       "email": "alfredo@gmail.com",
       "date": "5/14/2023, 10:53:41 PM",
@@ -55,6 +47,22 @@
       "email": "ego@gmail.com",
       "date": "5/14/2023, 11:07:57 PM",
       "id": 7
+    },
+    {
+      "photo": "./img/Ego.jpg",
+      "name": "Ego",
+      "surname": "Anton",
+      "email": "ego@gmail.com",
+      "date": "5/15/2023, 11:41:16 PM",
+      "id": 8
+    },
+    {
+      "photo": "./img/Ego3.webp",
+      "name": "Ego2",
+      "surname": "Anton",
+      "email": "ego@gmail.com",
+      "date": "5/15/2023, 11:42:06 PM",
+      "id": 9
     }
   ]
 }

@@ -122,6 +122,26 @@ tbody {
   }
 }
 
+section.fav {
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      display: flex;
+      flex-direction: column;
+      
+      &::after {
+        content: "";
+        height: 2px;
+        width: 100%;
+        background-color: cornflowerblue;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 768px) {
   header {
     nav {
