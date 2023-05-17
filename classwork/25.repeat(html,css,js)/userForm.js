@@ -20,7 +20,7 @@ async function createUser() {
         date: date.toLocaleString()
     }
     await axios.post(BASE_URL, user)
-    // window.location.href = 'index.html'
+    window.location.href = 'index.html'
 
 }
 
@@ -58,3 +58,6 @@ userForm.addEventListener('submit', (e) => {
         createUser()
     }
 })
+
+
+

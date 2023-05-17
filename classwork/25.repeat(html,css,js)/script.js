@@ -1,5 +1,5 @@
 const BASE_URL = 'http://localhost:8000/users'
-let isAvailable
+let isAvailable;
 const tBody = document.querySelector('#tBody')
 const burgerModal = document.querySelector('.burger-modal')
 const burgerBar = document.querySelector('.burger-bar')
@@ -70,19 +70,26 @@ modalRemove.addEventListener('click', () => {
 })
 
 
+
+
 const favUsers = JSON.parse(localStorage.getItem('fav-users')) || []
 
 async function addFavUser(userId) {
-    const btnFav = document.querySelector('.btn-fav')
     const res = await axios.get(`${BASE_URL}/${userId}`)
     const data = await res.data
-    isAvailable = favUsers.some((user) => user.id === data.id)
+    
+    let isAvailable = favUsers.find((user) => user.id === data.id)
+    // OR
+    // isAvailable = favUsers.some((user) => user.id === data.id)
+
     if (!isAvailable) {
         favUsers.push(data)
         localStorage.setItem('fav-users', JSON.stringify(favUsers))
     } else {
         alert('Character already exists in favorite list!')
     }
+
+
 }
 
 

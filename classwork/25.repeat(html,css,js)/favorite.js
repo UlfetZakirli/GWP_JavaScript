@@ -1,8 +1,8 @@
 const cards = document.querySelector('.cards')
+
 let favUsers = JSON.parse(localStorage.getItem('fav-users'))
 
 function getLocalFavUser() {
-  console.log(favUsers);
   cards.innerHTML = ''
   favUsers.forEach((user) => {
     cards.innerHTML += `
@@ -25,6 +25,8 @@ getLocalFavUser()
 
 function removeLocal(userId) {
   favUsers = favUsers.filter((user) => user.id != userId)
+  // const index = favUsers.findIndex((user) => user.id === userId)
+  // favUsers.splice(index, 1)
   localStorage.setItem('fav-users', JSON.stringify(favUsers))
   getLocalFavUser()
 }
